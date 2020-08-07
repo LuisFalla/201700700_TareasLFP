@@ -1,0 +1,9 @@
+Diferencia entre Lenguajes de Programación Imperativos y Declarativos
+
+Lenguajes de Programación Imperativos:
+
+	
+
+Lenguajes de Programación Declarativos:
+
+	

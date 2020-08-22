@@ -1,0 +1,26 @@
+<tarea>
+    <persona>
+        <nombre>Luis Falla</nombre>
+        <edad>22</edad>
+        <telefono>51000088</telefono>
+        <direccion>Forest Av</direccion>
+    </persona>
+    <persona>
+        <nombre>Alejandra Guzmán</nombre>
+        <edad>20</edad>
+        <telefono>66000008</telefono>
+        <direccion>Atlantic Av</direccion> 
+    </persona>
+    <persona>
+        <nombre>Arturo Jimenez</nombre>
+        <edad>17</edad>
+        <telefono>52040000</telefono>
+        <direccion>Long Beach LA</direccion>
+    </persona>
+    <persona>
+        <nombre>Juan Luis Morales</nombre>
+        <edad>47</edad>
+        <telefono>56470009</telefono>
+        <direccion>EverGreen Santa Ana CA</direccion>
+    </persona>
+</tarea>

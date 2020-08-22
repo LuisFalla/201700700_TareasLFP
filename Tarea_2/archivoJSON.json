@@ -1,0 +1,27 @@
+[
+    {
+        "Nombre": "Luis Falla",
+        "Edad": 22,
+        "Telefono": 51000088,
+        "Direccion": "Forest Av"
+    },
+    {
+        "Nombre": "Alejandra Guzman",
+        "Edad": 20, 
+        "Telefono": 66000008,
+        "Direccion": "Atlantic Av"
+    },
+    {
+        "Nombre": "Arturo Jimenez",
+        "Edad": 17,
+        "Telefono": 52040000,
+        "Direccion": "Long Beach LA"
+    },
+    {
+        "Nombre": "Juan Luis Morales",
+        "Edad": 47,
+        "Telefono": 56470009,
+        "Direccion": "EverGreen Santa Ana CA"
+    }
+
+]

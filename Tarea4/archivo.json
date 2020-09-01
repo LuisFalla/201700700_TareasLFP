@@ -1,0 +1,56 @@
+[
+    {
+        "nombre": "Alejandro Falla",
+        "edad": 12,
+        "activo": true,
+        "saldo": 5000.00
+    },
+    {
+        "nombre": "Hayward Morales",
+        "edad": 45,
+        "activo": false,
+        "saldo": 2000.20
+    },
+    {
+        "nombre": "Vivian Castro",
+        "edad": 39,
+        "activo": true,
+        "saldo": 10000.36
+    },
+    {
+        "nombre": "Juan Guzman",
+        "edad": 65,
+        "activo": false,
+        "saldo": 102890.10
+    },
+    {
+        "nombre": "Luis Navichoque",
+        "edad": 21,
+        "activo": true,
+        "saldo": 200.01
+    },
+    {
+        "nombre": "Eduardo Monzon",
+        "edad": 32,
+        "activo": true,
+        "saldo": 502.16
+    },
+    {
+        "nombre": "Lesly Samayoa",
+        "edad": 15,
+        "activo": false,
+        "saldo": 56.43
+    },
+    {
+        "nombre": "Sujeey Gonzales",
+        "edad": 71,
+        "activo": true,
+        "saldo": 456.32
+    },
+    {
+        "nombre": "Rosalia Jimenez",
+        "edad": 73,
+        "activo": true,
+        "saldo": 45896.00
+    }
+]

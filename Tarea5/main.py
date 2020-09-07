@@ -2,8 +2,16 @@ import os
 
 def menu():
     os.system('cls')
-    entrada = input("Ingrese cadena de caracteres: ")
-    afd(entrada)
+    #entrada = input("Ingrese cadena de caracteres: ")
+    #afd(entrada)
+    
+    entrada1 = "__servidor1"
+    print("Entrada 1: ", entrada1)
+    afd(entrada1)
+    
+    entrada2 = "3servidor"
+    print("Entrada 2: ", entrada2)
+    afd(entrada2)
 
 def afd(entrada):
     entrada = entrada + "#"

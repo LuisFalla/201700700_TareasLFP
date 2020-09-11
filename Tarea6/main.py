@@ -32,50 +32,50 @@ class Valor():
 class Token():    
 
     tipo = ""
-    lexema = ""
+    valor = ""
 
-    def __init__(self, t, l):
+    def __init__(self, t, v):
         self.tipo = t
-        self.lexema = l
+        self.valor = v
     
     def mostrar(self):
-        print(self.tipo,self.lexema)
+        print(self.tipo,self.valor)
     
     def retornarTipo(self):
         if self.tipo == "PARENTESIS_ABIERTO":
-            return "Parentesis Abierto", self.lexema
+            return "Parentesis Abierto", self.valor
         elif self.tipo == "PARENTESIS_CERRADO":
-            return "Parentesis Cerrado", self.lexema
+            return "Parentesis Cerrado", self.valor
         elif self.tipo == "MENOR_QUE":
-            return "Simbolo Menor Que", self.lexema
+            return "Simbolo Menor Que", self.valor
         elif self.tipo == "MAYOR_QUE":
-            return "Simbolo Mayor Que", self.lexema
+            return "Simbolo Mayor Que", self.valor
         elif self.tipo == "CORCHETE_ABIERTO":
-            return "Corchete Abierto", self.lexema
+            return "Corchete Abierto", self.valor
         elif self.tipo == "CORCHETE_CERRADO":
-            return "Corchete Cerrado", self.lexema
+            return "Corchete Cerrado", self.valor
         elif self.tipo == "COMILLA_DOBLE":
-            return "Comilla Doble", self.lexema        
+            return "Comilla Doble", self.valor        
         elif self.tipo == "SIGNO_IGUAL":
-            return "Signo igual", self.lexema
+            return "Signo igual", self.valor
         elif self.tipo == "SIMBOLO_COMA":
-            return "Simbolo coma", self.lexema
+            return "Simbolo coma", self.valor
         elif self.tipo == "SIGNO_PUNTO":
-            return "Simbolo punto", self.lexema
+            return "Simbolo punto", self.valor
         elif self.tipo == "SIGNO_MENOS":
-            return "Signo menos", self.lexema        
+            return "Signo menos", self.valor        
         elif self.tipo == "NUMERO_ENTERO":
-            return "Numero Entero", self.lexema
+            return "Numero Entero", self.valor
         elif self.tipo == "NUMERO_RACIONAL":
-            return "Numero Racional", self.lexema
+            return "Numero Racional", self.valor
         elif self.tipo == "ID":
-            return "Identificador", self.lexema
+            return "Identificador", self.valor
         elif self.tipo == "CADENA":
-            return "Cadena-String", self.lexema
+            return "Cadena-String", self.valor
         elif self.tipo == "BOOLEAN":
-            return "Booleano", self.lexema
+            return "Booleano", self.valor
         else:
-            return "SIMBOLO DESCONOCIDO", self.lexema
+            return "SIMBOLO DESCONOCIDO", self.valor
 
 v = Valor()
 
@@ -202,7 +202,7 @@ def reporte():
     filew.write('<thead>')
     filew.write("</tr>")
     filew.write('<th class="bg-light">TOKEN</th>')
-    filew.write('<th class="bg-info">LEXEMA</th>')        
+    filew.write('<th class="bg-info">VALOR</th>')        
     filew.write("</tr>")
     filew.write("</thead>")
     filew.write("<tbody>")
@@ -234,6 +234,6 @@ afd(cadena)
 
 print("----------------------------------------")
 for i in v.listaToken:
-    print("Token:",i[0],"| Lexema:",i[1])
+    print("Token:",i[0],"| Valor:",i[1])
 
 #reporte()
